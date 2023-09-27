@@ -15,7 +15,7 @@ const SendVerificationEmail = async (email, verificationToken) => {
     from: '"Amazone 👻" <amazone@vikash.com>',
     to: email,
     subject: "Email Verification",
-    text: `Please click the following link to verify your email: http://localhost:8000/api/user/auth/verify/${email}/${verificationToken}`,
+    text: `Please click the following link to verify your email: https://amazone-backend.vercel.app/api/user/auth/verify/${email}/${verificationToken}`,
   };
 
   /* Send Email */
