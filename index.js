@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 import userAuth from "./src/routes/userAuth.js";
 import userData from "./src/routes/userData.js";
 import userOrder from "./src/routes/userOrder.js";
-import authorization from "./src/middlewares/authorizaion.js"
+import RainforestAPI_Data from "./src/controllers/RainforestAPI_Data.js";
 
 const app = express();
 const PORT = 8000;
@@ -23,7 +23,8 @@ app.use("/api/user/auth", userAuth)  // Login Signup ResetPassword Email Verific
 app.use("/api/userdata", userData)
 app.use("/api/userorder", userOrder)
 
-app.post("/authorization", authorization) // Authorization
+/* RainForest Amazone Data */
+app.get("/api/rainforestdata", RainforestAPI_Data)
 
 
 
