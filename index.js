@@ -27,9 +27,6 @@ app.use("/api/userorder", userOrder)
 app.get("/api/rainforestdata", RainforestAPI_Data)
 
 
-
-
-
 /* Connecting To DataBase and Running the Server*/
 mongoose.connect("mongodb+srv://imvikashkk:Vikash2003@cluster0.aehxedm.mongodb.net/amazone?retryWrites=true&w=majority", {
     'useNewUrlParser': true,

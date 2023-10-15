@@ -1,9 +1,12 @@
+import axios  from "axios";
+
 const RainforestAPI_Data = (req, res) => {
 
-  const {input, filter, currentPage} = req.params
+  const {input, filter, currentPage} = req.query
 
-  if(!input || !filter || !currentPage){
-    res.json({
+
+  if(!input || !currentPage){
+   return res.json({
         sucess:false,
         message:"required parameter not found !"
     })
