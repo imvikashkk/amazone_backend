@@ -14,7 +14,7 @@ const RainforestAPI_Data = (req, res) => {
 
   // set up the request parameters
   const params = {
-    api_key: "7D4C46625211439F88B3C0C247F23B44",
+    api_key: "1D01319C579941AD9C2AE61C584F2D89",
     type: "search",
     amazon_domain: "amazon.in",
     search_term: input,

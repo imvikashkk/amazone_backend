@@ -28,7 +28,7 @@ app.get("/api/rainforestdata", RainforestAPI_Data)
 
 
 /* Connecting To DataBase and Running the Server*/
-mongoose.connect("mongodb+srv://imvikashkk:Vikash2003@cluster0.aehxedm.mongodb.net/amazone?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://vikashkkhunte:XzbOQsm49Mj3xPvc@cluster0.ydwj0cw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     'useNewUrlParser': true,
     'useUnifiedTopology': true
 }).then(() => {
