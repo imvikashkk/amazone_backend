@@ -6,7 +6,7 @@ const SendVerificationEmail = async (email, verificationToken) => {
     service: "gmail",
     auth: {
       user: "vikashkhunte2003@gmail.com",
-      pass: "wqojfmgeaqiykjyd",
+      pass: "csow lmvj cwum lubq",
     },
   });
 
